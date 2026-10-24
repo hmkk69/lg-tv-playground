@@ -1,0 +1,24 @@
+{
+  "name": "lg-tv-playground",
+  "version": "0.0.1",
+  "description": "Experimenting with LG webOS TVs using Node.js and lgtv2",
+  "main": "remote.js",
+  "scripts": {
+    "start": "node remote.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "lg-tv",
+    "webos",
+    "lgtv2",
+    "playground"
+  ],
+  "author": "Hmkk69",
+  "homepage": "https://github.com/hmkk69/lg-tv-playground",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.3.0",
+    "lgtv2": "^2.1.0"
+  }
+}
